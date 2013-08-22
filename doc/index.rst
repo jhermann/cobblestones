@@ -18,8 +18,8 @@
    limitations under the License.
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Welcome to the “cobblestones” documentation!
-============================================
+Welcome to the “cobblestones” manual!
+=====================================
 
 *cobblestones* adds often-used tasks and helper functions on top of Paver.
 
