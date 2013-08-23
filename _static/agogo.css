@@ -230,6 +230,16 @@ img.logo {
     border: 0;
 }
 
+div.ohloh iframe {
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    transform: scale(0.75);
+}
+#project_users iframe {
+    margin-top: 1.5em;
+    margin-left: 7em;
+}
+
 
 /* Content */
 div.content-wrapper {
