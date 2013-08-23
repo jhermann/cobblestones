@@ -44,6 +44,7 @@ div.footer .right div {
 div.header-wrapper {
     background: url(bgtop.png) top left repeat-x;
     border-bottom: 3px solid #2e3436;
+    height: 90px;
 }
 
 
@@ -204,7 +205,7 @@ dt:target, .highlighted {
 
 div.header {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 div.header .headertitle {
@@ -220,7 +221,9 @@ div.header div.rel {
 }
 
 p.logo {
-    float: right;
+    float: left;
+    margin-top: -5px;
+    padding-right: 1em;
 }
 
 img.logo {
