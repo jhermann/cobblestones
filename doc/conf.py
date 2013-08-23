@@ -102,6 +102,7 @@ html_theme = 'project'
 # documentation.
 html_theme_options = dict(
     github_repo_url = "https://github.com/jhermann/" + project,
+    ohloh_id = "649700",
 )
 
 # Add any paths that contain custom themes here, relative to this directory.
