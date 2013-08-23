@@ -1,5 +1,7 @@
 # cobblestones ![Logo](https://raw.github.com/jhermann/cobblestones/master/doc/_static/cobblestones-logo-48.png)
 
+[![Build Status](http://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](http://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/)
+
 ## Overview
 *cobblestones* adds often-used tasks and helper functions on top of
 [Paver](https://pypi.python.org/pypi/Paver).
@@ -7,8 +9,11 @@
 
 ## Documentation
 
-The documentation for the current GitHub master source is located at
+The documentation for the current GitHub master source is regularly published to
 [github.io](http://jhermann.github.io/cobblestones/).
+
+A [continuously built document tree](http://huschteguzzel.de/hudson/job/cobblestones/doclinks/1/)
+with the latest changes is also available.
 
 
 ## Contributing
