@@ -1,4 +1,4 @@
-# cobblestones
+# cobblestones ![Logo](https://raw.github.com/jhermann/cobblestones/master/doc/_static/cobblestones-logo-48.png)
 
 ## Overview
 *cobblestones* adds often-used tasks and helper functions on top of
