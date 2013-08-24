@@ -31,10 +31,8 @@ To set up a working directory, follow these steps:
 ```sh
 git clone "https://github.com/jhermann/cobblestones.git"
 cd "cobblestones"
-virtualenv --no-site-packages .
+./jenkins.sh
 . bin/activate
-pip install -r "requirements.txt"
-paver init
 ```
 
 *cobblestones* can also be found on [PyPI](https://pypi.python.org/pypi/cobblestones)
