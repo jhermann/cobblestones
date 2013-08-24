@@ -21,7 +21,7 @@ from paver.options import Bunch
 def bunchify(obj, _seen=None):
     """ Recursively convert all dicts found in `obj` to Paver bunches.
 
-        That includes `obj` itself; if it's already a Bunch, the original
+        That includes `obj` itself; if it's already a `Bunch`, the original
         object is returned. Replacement of inner dicts by `Bunch` objects
         happens in-place. Other dict-like objects are scanned, but their
         type is retained.
