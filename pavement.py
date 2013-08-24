@@ -2,15 +2,10 @@
 # pylint: disable=wildcard-import, unused-wildcard-import, invalid-name, unused-import
 """ A library of Paver extensions and generally useful task definitions.
 
-    cobblestones adds often-used tasks and helper functions on top of Paver,
-    useful for any Python project.
-
-    For more, read the manual at http://jhermann.github.io/cobblestones/.
-
-    Copyright © 2013 Jürgen Hermann
-
-    Licensed under the Apache License, Version 2.0
+    This is the main build script for Paver.
 """
+# Copyright © 2013 Jürgen Hermann
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -35,69 +30,26 @@ from setuptools import find_packages
 # Project Description
 #
 projectdir = path(__file__).dirname().abspath()
-changelog = (projectdir / "debian" / "changelog").text().decode("UTF-8")
-project = dict(
-    # project data & layout
-    name = changelog.split()[0],
-    version = re.search(r"(?<=\()[^)]+(?=\))", changelog).group(),
-    package_dir = {"": "src"},
-    packages = find_packages(projectdir / "src", exclude=["tests"]),
-    test_suite = "nose.collector",
-    zip_safe = True,
-    include_package_data = True,
-    data_files = [
-        ("EGG-INFO", [
-            "README.md", "LICENSE", "debian/changelog",
-        ]),
-    ],
-
-    # dependency management
-    install_requires = [
-    ],
-    setup_requires = [
-        "docutils",
-        "Sphinx",
-    ],
-    extras_require = {
-    },
-
-    # PyPI
-    url = "https://github.com/jhermann/cobblestones",
-    license = "Apache License Version 2.0",
-    keywords = "python tool automation continuous.integration",
-    author = u"Jürgen Hermann",
-    author_email = "jh@web.de",
-    description = __doc__.split('.')[0].strip().decode("UTF-8"),
-    long_description = __doc__.split('.', 1)[1].strip().decode("UTF-8"),
-    classifiers = [
-        # values at http://pypi.python.org/pypi?:action=list_classifiers
-        "Development Status :: 3 - Alpha",
-        #"Development Status :: 4 - Beta",
-        #"Development Status :: 5 - Production/Stable",
-        "Operating System :: OS Independent",
-        "Environment :: Console",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: Apache Software License",
-        "Natural Language :: English",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python :: 2.7",
-        "Topic :: Software Development :: Build Tools",
-        "Topic :: Software Development :: Quality Assurance",
-        "Topic :: Utilities",
-    ],
-)
-
-
-#
-# Tasks
-#
 try:
     import cobblestones
 except ImportError:
     # Special bootstrap in our own project, in absence of an initialized virtualenv
     sys.path.insert(0, projectdir / "src")
     import cobblestones
+from cobblestones import tools
 
+changelog = (projectdir / "debian" / "changelog").text("UTF-8")
+project = tools.bunchify(cobblestones.pkg_info())
+project.update(
+    # TODO: find ways to get at these during runtime, within "cobblestones.pkg_info"
+    version = re.search(r"(?<=\()[^)]+(?=\))", changelog).group(), # DRY principle
+    packages = find_packages(projectdir / "src", exclude=["tests"]),
+)
+
+
+#
+# Tasks
+#
 
 @task
 @needs(["paver.misctasks.generate_setup", "paver.misctasks.minilib", "setuptools.command.develop"])
@@ -116,7 +68,7 @@ def init():
 #
 # Sphinx Documentation
 #
-# TODO: move to cobblestones.doc.sphinx and cobblestones.doc.gh_pages, and make project layout configurable
+# TODO: move to cobblestones.easy.documentation, and make project layout configurable (cf. options.sphinx)
 @task
 def doc():
     """create documentation"""
