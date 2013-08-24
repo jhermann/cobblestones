@@ -28,10 +28,10 @@ Contents
 --------
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     usage
-    api/cobblestones
+    fullapi
 
 
 Indices and Tables
