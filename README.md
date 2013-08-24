@@ -1,6 +1,9 @@
 # cobblestones ![Logo](https://raw.github.com/jhermann/cobblestones/master/doc/_static/cobblestones-logo-48.png)
 
-[![Build Status](http://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](http://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/)
+| **Travis** | **Jenkins** |
+|:-------------:|:-------------:|
+| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Jenkins Status](http://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](http://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/) |
+
 
 ## Overview
 *cobblestones* adds often-used tasks and helper functions on top of
@@ -25,12 +28,14 @@ Paver is used to build and manage the project, and *cobblestones* eats its own d
 
 To set up a working directory, follow these steps:
 
-    git clone https://github.com/jhermann/cobblestones.git
-    cd cobblestones
-    virtualenv --no-site-packages .
-    . bin/activate
-    pip install -r requirements.txt
-    paver init
+```sh
+git clone https://github.com/jhermann/cobblestones.git
+cd cobblestones
+virtualenv --no-site-packages .
+. bin/activate
+pip install -r requirements.txt
+paver init
+```
 
 *cobblestones* can also be found on [PyPI](https://pypi.python.org/pypi/cobblestones)
 and [Ohloh](https://www.ohloh.net/p/cobblestones).
