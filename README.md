@@ -29,11 +29,11 @@ Paver is used to build and manage the project, and *cobblestones* eats its own d
 To set up a working directory, follow these steps:
 
 ```sh
-git clone https://github.com/jhermann/cobblestones.git
-cd cobblestones
+git clone "https://github.com/jhermann/cobblestones.git"
+cd "cobblestones"
 virtualenv --no-site-packages .
 . bin/activate
-pip install -r requirements.txt
+pip install -r "requirements.txt"
 paver init
 ```
 
