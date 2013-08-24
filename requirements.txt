@@ -13,6 +13,3 @@ markdown2
 Paver >= 1.2.1
 pylint >= 1.0.0
 
-# optional, but helpful
-bpython
-yolk
