@@ -28,7 +28,7 @@ def pkg_info():
     """Return project information for setuptools."""
     try:
         doc = __doc__.decode("UTF-8")
-    except AttributeError, UnicodeError:
+    except (AttributeError, UnicodeError):
         doc = __doc__ # Python3, or some strangeness
     
     return dict(
