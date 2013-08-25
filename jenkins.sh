@@ -17,11 +17,13 @@ if test ! -f bin/activate; then
     ( cd build && tar xfz virtualenv-$venv.tar.gz && mv virtualenv-$venv virtualenv )
     python build/virtualenv/virtualenv.py --no-site-packages .
     bin/pip install --log build/pip.log -M -r requirements.txt
+    pip install -M --src lib -e git+https://github.com/jhermann/paver.git#egg=Paver
     bin/paver init
 fi
 
 # Activate virtualenv and do your thing
 set +x; . bin/activate; set -x
+yolk -a
 paver build
 paver doc
 
