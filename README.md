@@ -33,6 +33,7 @@ git clone "https://github.com/jhermann/cobblestones.git"
 cd "cobblestones"
 ./jenkins.sh
 . bin/activate
+pip install -M -r tools-requirements.txt
 ```
 
 *cobblestones* can also be found on [PyPI](https://pypi.python.org/pypi/cobblestones)
