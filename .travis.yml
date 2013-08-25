@@ -13,8 +13,9 @@ python:
     - "pypy"
 matrix:
     allow_failures:
-        - python: 3.3
-        - python: pypy
+        - python:
+            - 3.3
+            - pypy
 
 # command to install dependencies
 install: 
