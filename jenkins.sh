@@ -18,6 +18,7 @@ if test ! -f bin/activate; then
     python build/virtualenv/virtualenv.py --no-site-packages .
     bin/pip install --log build/pip.log -M -r requirements.txt
     pip install -M --src lib -e git+https://github.com/jhermann/paver.git#egg=Paver
+    pip install -M yolk
     bin/paver init
 fi
 
