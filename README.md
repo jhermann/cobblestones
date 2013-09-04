@@ -2,7 +2,7 @@
 
 | **Travis** | **Jenkins** | **PyPI** | **Ohloh** |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Jenkins Status](http://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](http://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/) | [![Downloads](https://pypip.in/d/cobblestones/badge.png)](https://pypi.python.org/pypi/cobblestones) | [![Ohloh stats](https://www.ohloh.net/p/cobblestones/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/cobblestones) |
+| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Jenkins Status](http://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](http://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/) | [![Downloads](https://pypip.in/d/cobblestones/badge.png)](https://pypi.python.org/pypi/cobblestones) [![Latest](https://pypip.in/v/cobblestones/badge.png)](https://crate.io/package/cobblestones) | [![Ohloh stats](https://www.ohloh.net/p/cobblestones/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/cobblestones) |
 
 
 ## Overview
