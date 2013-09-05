@@ -2,7 +2,7 @@
 
 | **Travis** | **Jenkins** | **PyPI** | **Ohloh** |
 |:-------------:|:-------------:|:-------------:|:-------------:|
-| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Jenkins Status](http://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](http://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/) | [![Downloads](https://pypip.in/d/cobblestones/badge.png)](https://pypi.python.org/pypi/cobblestones) [![Latest](https://pypip.in/v/cobblestones/badge.png)](https://crate.io/package/cobblestones) | [![Ohloh stats](https://www.ohloh.net/p/cobblestones/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/cobblestones) |
+| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Jenkins Status](https://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](https://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/) | [![Downloads](https://pypip.in/d/cobblestones/badge.png)](https://pypi.python.org/pypi/cobblestones) [![Latest](https://pypip.in/v/cobblestones/badge.png)](https://crate.io/package/cobblestones) | [![Ohloh stats](https://www.ohloh.net/p/cobblestones/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/cobblestones) |
 
 
 ## Overview
@@ -15,7 +15,7 @@
 The documentation for the current GitHub master source is regularly published to
 [github.io](http://jhermann.github.io/cobblestones/).
 
-A [continuously built document tree](http://huschteguzzel.de/hudson/job/cobblestones/doclinks/1/)
+A [continuously built document tree](https://huschteguzzel.de/hudson/job/cobblestones/doclinks/1/)
 with the latest changes is also available.
 
 
