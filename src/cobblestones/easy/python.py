@@ -2,7 +2,7 @@
 """ Standard task definitions for Python projects.
 
     To use these tasks, add this to your pavement::
-    
+
         from cobblestones.easy.python import *
 
     Of course, you can be more selective and use a name list instead of

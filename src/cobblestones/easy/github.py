@@ -2,7 +2,7 @@
 """ Standard task definitions for projects hosted on GitHub.
 
     To use these tasks, add this to your pavement::
-    
+
         from cobblestones.easy.github import *
 
     Of course, you can be more selective and use a name list instead of

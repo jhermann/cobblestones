@@ -30,7 +30,7 @@ def pkg_info():
         doc = __doc__.decode("UTF-8")
     except (AttributeError, UnicodeError):
         doc = __doc__ # Python3, or some strangeness
-    
+
     return dict(
         # project data & layout
         name = __name__.split('.')[0],

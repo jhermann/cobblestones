@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-""" A set of modules for standard tasks in different domains, 
+""" A set of modules for standard tasks in different domains,
     analogous to “paver.easy”.
-    
+
     An example for Python projects::
-    
+
         from cobblestones.easy.python import *
 """
 # Copyright © 2013 Jürgen Hermann
