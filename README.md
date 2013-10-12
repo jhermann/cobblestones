@@ -1,4 +1,4 @@
-# cobblestones ![Logo](https://raw.github.com/jhermann/cobblestones/master/doc/_static/cobblestones-logo-48.png)
+# ![Logo](https://raw.github.com/jhermann/cobblestones/master/doc/_static/cobblestones-logo-48.png) cobblestones
 
 | **Travis** | **Jenkins** | **PyPI** | **Ohloh** |
 |:-------------:|:-------------:|:-------------:|:-------------:|
@@ -8,6 +8,12 @@
 ## Overview
 *cobblestones* adds often-used tasks and helper functions on top of
 [Paver](https://pypi.python.org/pypi/Paver).
+
+*cobblestones* can also be found on [PyPI](https://pypi.python.org/pypi/cobblestones)
+and [Ohloh](https://www.ohloh.net/p/cobblestones).
+It is released under the
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html),
+see [LICENSE](https://raw.github.com/jhermann/cobblestones/master/LICENSE) for details.
 
 
 ## Documentation
@@ -21,28 +27,8 @@ with the latest changes is also available.
 
 ## Contributing
 
-*cobblestones* is obviously written in [Python](http://www.python.org/),
-and the documentation is generated using [Sphinx](https://pypi.python.org/pypi/Sphinx).
-Paver is used to build and manage the project, and *cobblestones* eats its own dogfood
-(see `pavement.py`).
-
-To set up a working directory, follow these steps:
-
-```sh
-git clone "https://github.com/jhermann/cobblestones.git"
-cd "cobblestones"
-./jenkins.sh
-. bin/activate
-pip install -M -r tools-requirements.txt
-```
-
-*cobblestones* can also be found on [PyPI](https://pypi.python.org/pypi/cobblestones)
-and [Ohloh](https://www.ohloh.net/p/cobblestones).
-
-
-## License
-
-*cobblestones* is released under the 
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html),
-see LICENSE for details.
-
+If you like to submit an enhancement in form of additional documentation or a pull request,
+or find an issue and maybe even have a patch ready for it, please consider the
+[contribution guidelines](https://github.com/jhermann/cobblestones/blob/master/CONTRIBUTING.md)
+for this project. You can also find instructions on
+*how to quickly set up a working development environment* in that document.
