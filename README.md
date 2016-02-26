@@ -1,8 +1,11 @@
 # ![Logo](https://raw.github.com/jhermann/cobblestones/master/doc/_static/cobblestones-logo-48.png) cobblestones
 
-| **Travis** | **Jenkins** | **PyPI** | **Ohloh** |
-|:-------------:|:-------------:|:-------------:|:-------------:|
-| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Jenkins Status](https://huschteguzzel.de/hudson/buildStatus/icon?job=cobblestones)](https://huschteguzzel.de/hudson/view/jhermann/job/cobblestones/) | [![Downloads](https://pypip.in/d/cobblestones/badge.png)](https://pypi.python.org/pypi/cobblestones) [![Latest](https://pypip.in/v/cobblestones/badge.png)](https://crate.io/package/cobblestones) | [![Ohloh stats](https://www.ohloh.net/p/cobblestones/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/cobblestones) |
+:mega: | STATUS: This project is frozen, since I switched from Paver to [Invoke](https://github.com/jhermann/rituals)!
+----:|:----
+
+| **Travis** | **PyPI** | **Ohloh** |
+|:-------------:|:-------------:|:-------------:|
+| [![Travis Status](https://travis-ci.org/jhermann/cobblestones.png?branch=master)](https://travis-ci.org/jhermann/cobblestones) | [![Downloads](https://pypip.in/d/cobblestones/badge.png)](https://pypi.python.org/pypi/cobblestones) [![Latest](https://pypip.in/v/cobblestones/badge.png)](https://crate.io/package/cobblestones) | [![Ohloh stats](https://www.ohloh.net/p/cobblestones/widgets/project_thin_badge.gif)](https://www.ohloh.net/p/cobblestones) |
 
 
 ## Overview
